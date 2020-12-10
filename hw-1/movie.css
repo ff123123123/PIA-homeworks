@@ -1,0 +1,143 @@
+* { 
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png');
+    height: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia;
+    text-shadow: 3px 3px #999999;
+}
+
+.naslov {
+    background-image: url('images/rbg.png');
+    color: red;
+    display: flex;
+    position: relative;
+}
+
+.naslov1 {
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    top:20%;
+}
+
+
+.cela_sirina {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 5px 5px 5px #EEEEEE;  
+}
+
+.cela_sirina:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.leva_kolona {
+    float:left;
+    width: 75%;
+    background-color: #EEEEEE; 
+}
+
+.desna_kolona {
+    float: left;
+    width: 25%;
+    background-color:  #A2B964;
+    word-wrap: break-word;
+}
+
+.siva {
+    background-color: #EEEEEE;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotebubble > q {
+    font-size: 13px;
+    font-family: Georgia;
+    margin-left: 5px;
+}
+
+.quotebubble {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #CCCCCC;
+    border-width: 2px;
+    width: 90%;
+    padding: 1em;
+    align-self: center;
+}
+
+.critic > img {
+    float: left;
+    margin-right: 5px;
+}
+
+.critic {
+    margin-top: 5px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.publication {
+    font-family: cursive;
+}
+
+.naruto {
+    width: 100%;
+    height: 320px;
+}
+
+footer {
+    background-color: #A2B964;
+    padding:0.5em;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px #EEEEEE;
+}
+
+#w3c {
+    float: right;
+}
+
+dl {
+    padding: 15px;
+}
+
+dt, dd {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+dt {
+    margin-top: 15px;
+}
+
+.procenat {
+    width: 50px;
+    margin-top: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
