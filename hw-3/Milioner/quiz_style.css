@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/pozadina.jpg");
+}
+
+/* Login page div */
+
+.login{
+    display: block;
+    background-image: url('images/mgd.png');
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+.login .wlcm h2{
+    text-align: center;
+    color: black;
+    font-family: "Papyrus";
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.login .avatar{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.login .avatar img{
+    width:120px;
+    height: 120px;
+}
+
+.login .form{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.login .form #input{
+    height: 50px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: "Papyrus";
+}
+.login .form #submit{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: "Papyrus";
+    margin-bottom: 20px;
+}
+
+.login .form #submit:hover{
+    background-color: red;
+    color: white;
+}
+
+.login .form #warn{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: block;
+    color: red;
+    font-size: 12pt;
+    width: 130px;
+}
+
+/*Rules page div */
+
+
+.rules{
+    display: none;
+    background-image: url('images/a.webp');
+    background-size: cover;
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.rules .header h2{
+    font-family: "Papyrus";
+    font-weight: bold;
+    font-size: 27pt;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.rules .text p{
+    padding: 40px;
+    font-size: 17pt;
+    font-family: "Papyrus";
+    font-weight: 500;
+    color: black;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 20px;
+    background-clip: padding-box;
+    backdrop-filter: blur(5px);
+
+}
+
+.rules .begin #start{
+    margin-top: 10px;
+
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: "Papyrus";
+    margin-bottom: 10px;
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+.rules .begin #start:hover{
+    background-color: red;
+}
+
+.rules .text mark{
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+/* Quiz page div */
+
+
+.quiz{
+    display: none;
+    background-image: url('images/lines.jpg');
+    background-size: cover;
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.quiz .question p{
+    font-size: 25pt;
+    font-weight: bold;
+    color: black;
+    font-family: "Candara";
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 50px;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+}
+
+.quiz .answers-two{
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 30px;
+}
+
+.quiz .answers-one a, .quiz .answers-two a{
+
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    background-color: blue;
+    font-size: 15pt;
+    font-family: "Candara";
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+.quiz a:hover{
+    background-color: blue;
+    opacity: 1;
+}
+
+
+.quiz .pre #timer{
+    font-size: 20pt;
+    float: left;
+    font-weight: bolder;
+    color: red;
+    margin-left: 10px;
+}
+
+.quiz .pre #before-timer{
+    font-size: 20pt;
+    float: left;
+    color:black;
+    margin-left: 20px;
+}
+
+.quiz .pre #q-count{
+    font-size: 20pt;
+    float: right;
+    color:black;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.quiz .bottom-btns #exit{
+
+    float:left;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    color: darkblue;
+    border: 2px solid darkblue;
+    font-weight: bold;
+    font-size: 17pt;
+    font-family: "Candara";
+    margin-left: 17px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.quiz .bottom-btns #exit:hover{
+    background-color: blue;
+    color: white;
+}
+
+.quiz .bottom-btns #next{
+    float:right;
+    text-decoration: none;
+    display: block;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 17pt;
+    font-family: "Candara";
+    border: 2px solid darkblue;
+    margin-right: 17px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.quiz .bottom-btns #next:hover{
+    background-color: blue;
+}
