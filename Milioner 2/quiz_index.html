@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QUIZ!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="quiz_style.css">
+    </head>
+
+    <body>
+        <!-- ************** Login page *************** -->
+        <div id="login" class="container login">
+
+            <div class="row wlcm">
+                <h2>Dobro došli!</h2>
+            </div>
+
+            <div class="row avatar">                       
+                <img src="images/avatar.png" alt="avatar">
+            </div>
+
+            <div class="row form">
+                <input id="input" class="form-control" type="text" placeholder="Unesite ime">
+                <label id="warn"></label>
+                <a id="submit" href="javascript:void(0)">Potvrdi</a>
+            </div>
+
+        </div>
+
+
+        <!-- ************* Rules page **************** -->
+            
+            <div id="rules" class="container rules">
+
+                <div class="row header">
+                    <h2>Pravila igre</h2>
+                </div>
+
+                <div class="row text">
+                    <p>
+                        Dobrodošli! 
+                        Kviz se sastoji od 10 pitanja.
+                        Cilj je ostvariti što više poena. 
+                        Pitanja su iz različitih oblasti.
+                        Svaki tačan odgovor nosi 5 poena. 
+                         Vreme odgovora je ograničeno na 
+                        20 sekundi. 
+                        Kviz počinje klikom na "Počni kviz". 
+                        Srećno!
+                    </p>
+
+                </div>
+
+                <div class="row begin">
+                    <a id="start" href="milioner.html">Počni kviz</a>
+                </div>
+			
+            </div>
+    </body>
+
+<script src="quiz_script.js"></script>
+</html>
